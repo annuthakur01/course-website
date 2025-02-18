@@ -1,0 +1,359 @@
+@media screen and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+    .wrapper{
+        overflow-x: hidden;
+    }
+
+    .uppar-nav {
+        width: 370px;
+        height: 41px;
+    }
+
+    .lover-nav {
+        width: 370px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-list {
+        visibility: hidden;
+    }
+
+    .logo {
+        width: 44px;
+        height: 44px;
+        margin-left: 20px;
+    }
+
+    .nav-btn {
+        margin-left: -350px;
+
+    }
+
+    .creative-field {
+        margin-top: 80px;
+        margin-left: 8px;
+        gap: 8px;
+       
+    }
+
+    .line-img {
+        left: 0;
+        top: 0;
+    }
+
+    .unlock {
+        gap: 5px;
+        background: white;
+        width: 357px;
+        
+        border-radius: 10px;
+    }
+
+    .unlock span {
+        font-size: 16px;
+    }
+
+    .unlock div {
+        font-size: 16px;
+    }
+
+    .unlock img {
+        height: 48px;
+        width: 48px;
+    }
+
+    .course-info div {
+        font-size: 24px;
+        width: 297px;
+
+    }
+
+    .course-info p {
+        font-size: 14px;
+        width: 297px;
+    }
+
+    .apps-img {
+        height: 150px;
+        align-self: center;
+        border-radius: 12px;
+    }
+
+    .apps-img img {
+        width: 357px;
+
+    }
+
+    .container-img img {
+        width: 350px;
+        height: 200px;
+        margin-left: auto;
+        margin-top: auto;
+    }
+
+    .txt-div {
+        flex-direction: column;
+        width: 358px;
+        margin-right: 20px;
+    }
+
+    .cards-area {
+        align-self: center;
+        width: 358px;
+    }
+
+    .card-text-1 {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .view-all {
+        flex-direction: column;
+
+    }
+    .card h3{
+        margin-left: 200px;
+    }
+    .card-content{
+        margin-left: 10px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .course-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .course-card img {
+        width: 340px;
+        height: 172px;
+    }
+
+    .card-info {
+        flex-direction: column;
+    }
+
+    .cards-text {
+        width: 309px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .course-btn {
+        width: 309px;
+    }
+
+    .story-card-1 {
+        width: 340px;
+    }
+
+    .story-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .premium-cards {
+        flex-direction: column;
+        width: 220px;
+    }
+
+    .plan-btn {
+        width: 277px;
+        height: 43px;
+    }
+
+    .started-btn {
+        width: 277px;
+        height: 30px;
+    }
+
+    .available-features div {
+        width: 237px;
+    }
+
+    .frequently-section {
+        flex-direction: column;
+        padding: 20px;
+        width: 340px;
+    }
+
+    .left-section {
+        width: 310px;
+    }
+
+    .left-section-heading {
+        font-size: 24px;
+    }
+
+    .left-section-para {
+        font-size: 14px;
+    }
+
+    .logo-text {
+        width: 300px;
+    }
+
+    .enroll-text {
+        width: 300px;
+    }
+
+    .right-section {
+        padding: 0;
+    }
+
+    .upper-footer {
+        width: 357px;
+        flex-direction: column;
+        padding: 100px;
+
+    }
+
+    footer {
+        width: 92%;
+       
+    }
+
+    .lower-footer {
+        width: 100%;
+        
+    }
+}
+
+/* course page */
+@media screen and (max-width: 500px) {
+    .wrapper {
+        margin-left: px;
+    }
+
+    .heading-area {
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .course-text {
+        width: 340px;
+    }
+
+    .card-heading-fast {
+        flex-direction: column;
+        width: 360px;
+        justify-content: flex-start;
+
+    }
+
+    .web-card {
+        width: 357px;
+    }
+
+    .card-img img {
+        width: 110px;
+        height: 100px;
+
+    }
+
+    .card-about {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card-num {
+        flex-direction: column;
+    }
+
+    .heading-text {
+        width: 350px;
+    }
+
+    .card-img {
+        width: 250px;
+    }
+
+    .card-1 {
+        width: 357px;
+    }
+
+    .card-num {
+        margin-left: 270px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 380px) {
+    .wrapper {
+        margin-left: 120px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .lower-footer {
+        width: 110%;
+    }
+}
+/* login */
+@media screen and (max-width: 500px){
+    .login-section{
+        flex-direction: column;
+    }
+    .course-heading{
+        margin-left: 150px;
+    }
+    .together{
+        margin-left: 20px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .achievement-cards{
+       
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        width: 300px;
+    }
+    .our-goals-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .together-text div{
+        width: 300px;
+    }
+    .together-text p{
+        width: 300px;
+    }
+    .login-left{
+        width: 357px;
+    }
+    .login-right{
+        width: 357px;
+    }
+    .login div{
+        margin-left: 100px;
+        
+    }
+    .login p{
+        margin-left: 10px;
+    }
+    .log-in-btn{
+        padding:10px 150px;
+    }
+    .google{
+        padding: 20px 80px;
+    }
+    .account{
+        margin-left: 40px;
+    }
+    .contact-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
